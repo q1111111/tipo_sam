@@ -6,7 +6,7 @@ int main()
     char *outs=new char[256];
     outs[0]=0;
     char c;
-    std::cout<<"Enter the string: ";
+    std::cout<<"варавдвоа: ";
     std::cin.getline(s, 256);
     std::cout<<"Enter the symbol: ";
     std::cin>>c;
@@ -27,6 +27,6 @@ int main()
     if(b)
         strcat(outs, s+start);
     std::cout<<outs<<std::endl;
-    system("pause");
+
     return 0;
 }
